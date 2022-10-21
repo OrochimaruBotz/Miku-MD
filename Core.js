@@ -1330,7 +1330,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Humanz to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1360,7 +1360,7 @@ const ftroli = {
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Fantox*
+    ©️ *${global.BotName}* All Rights Reserved by: *Humanz*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -3467,7 +3467,7 @@ case 'music': case 'play': case 'song': case 'ytplay': {
              break
 
 
-case 'couplepp':  case 'ppcouple': {
+case 'couplepp':  case 'ppcp': {
 if (isBan) return reply(mess.banned)
 if (isBanChat) return reply(mess.bangc)
          reply(mess.waiting)
@@ -4812,7 +4812,7 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
       
  const helpmenu = `Konichiwa *${pushname}* Senpai,
 
-I am *Miku Nakano*, a bot developed by *Fantox*.
+I am *Miku Nakano*, a bot developed by *Humanz*.
 
 🔰 My prefix is:  ${prefix}
 
@@ -4886,7 +4886,7 @@ qr, say, translate, fliptext, toletter
 
 
  『  *${global.BotName}*  』
- Powered by: *Fantox*
+ Powered by: *Humanz*
 
  🔰 To use any of these commands type 
  " *${prefix}<Command name>* ".
